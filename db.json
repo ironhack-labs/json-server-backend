@@ -1,33 +1,286 @@
 {
-  "projects": [
+  "countries": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "name": "France",
+      "capital": "Paris",
+      "image": "https://unsplash.com/photos/CB0Qrf8ib4I",
+      "description": "France, located in Western Europe, is renowned for its rich history, culture, and culinary excellence. With iconic landmarks like the Eiffel Tower, a legacy of influential artists and writers, and a diverse landscape, including beautiful wine regions and coastal destinations, France is a top global tourist destination. Its historical contributions, from the Enlightenment to revolutions, have left an indelible mark on world history. France's democratic republic is a leader in various industries, including aerospace and fashion, and is celebrated for its fine wines, cheeses, and gourmet cuisine."
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "name": "Italy",
+      "capital": "Rome",
+      "image": "https://unsplash.com/photos/hFXZ5cNfkOk",
+      "description": "Italy, in Southern Europe, is famous for its rich history, art, and culture. Home to iconic landmarks like the Colosseum, the Vatican, and the Leaning Tower of Pisa, Italy offers a blend of historical treasures and stunning natural landscapes. Italian cuisine, known for pasta, pizza, and fine wines, is celebrated worldwide."
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "name": "Spain",
+      "capital": "Barcelona",
+      "image": "https://unsplash.com/photos/UP22zkjJGZo",
+      "description": "Spain, located in southwestern Europe, is known for its vibrant culture, beautiful beaches, and historic cities. Barcelona, the capital of Catalonia, is famous for its unique architecture by Antoni Gaudí, including the Sagrada Família. Spain's cuisine features dishes like paella and tapas, and its festivals, such as La Tomatina, are renowned for their energy and fun."
+    },
+    {
+      "id": 4,
+      "name": "Netherlands",
+      "capital": "Amsterdam",
+      "image": "https://unsplash.com/photos/njeldz2KN84",
+      "description": "The Netherlands, known for its picturesque canals, windmills, and tulip fields, is a charming European country. Amsterdam, the capital, offers a mix of historic architecture, world-class museums like the Van Gogh Museum, and a vibrant nightlife scene."
+    },
+    {
+      "id": 5,
+      "name": "Czech Republic",
+      "capital": "Prague",
+      "image": "https://unsplash.com/photos/nbbghxSeV9Q",
+      "description": "The Czech Republic, in Central Europe, is famous for its capital city, Prague. With its stunning old town, Prague Castle, and Charles Bridge, it's a historical and architectural gem."
+    },
+    {
+      "id": 6,
+      "name": "Greece",
+      "capital": "Athens",
+      "image": "https://unsplash.com/photos/t2ML1dcxjdc",
+      "description": "Greece, the cradle of Western civilization, boasts Athens as its capital. Here, you'll find iconic landmarks like the Acropolis, Parthenon, and a rich cultural heritage."
+    },
+    {
+      "id": 7,
+      "name": "Italy",
+      "capital": "Venice",
+      "image": "https://unsplash.com/photos/rknrvCrfS1k",
+      "description": "Venice, Italy, is renowned for its unique and picturesque canals. Visitors can explore the historic city by gondola or walk along its charming streets. It's a city of romance and artistic heritage."
+    },
+    {
+      "id": 8,
+      "name": "Ireland",
+      "capital": "Dublin",
+      "image": "https://unsplash.com/photos/tfdG9vbKdzo",
+      "description": "Ireland, known for its lush landscapes and friendly people, has Dublin as its capital. Explore the city's historic sites, such as Trinity College and the Guinness Storehouse."
+    },
+    {
+      "id": 9,
+      "name": "Austria",
+      "capital": "Vienna",
+      "image": "https://unsplash.com/photos/LKBW3401d-0",
+      "description": "Austria, in Central Europe, is home to Vienna, its capital. The city is known for its imperial palaces, classical music heritage, and vibrant coffeehouse culture."
+    },
+    {
+      "id": 10,
+      "name": "Scotland",
+      "capital": "Edinburgh",
+      "image": "https://unsplash.com/photos/qpQ7NQ2CXA4",
+      "description": "Scotland, part of the United Kingdom, features Edinburgh as its capital. The city is known for its historic and architectural marvels, including the Edinburgh Castle."
+    }
+  ],
+  "tourist": [
+    {
+      "id": 11,
+      "countryId": 1,
+      "placeName": "Eiffel Tower",
+      "placeImage": "https://unsplash.com/photos/FJYS6vuf39k",
+      "description": "The Eiffel Tower is an iconic iron lattice tower located in Paris, France. Designed by engineer Gustave Eiffel, it was completed in 1889 as the centerpiece of the 1889 World's Fair. Standing at a height of 324 meters (1,063 feet), the Eiffel Tower was the tallest man-made structure in the world until 1930. It offers breathtaking panoramic views of Paris from its observation decks and has become a symbol of France and a global cultural icon."
+    },
+    {
+      "id": 12,
+      "countryId": 1,
+      "placeName": "Louvre Museum",
+      "placeImage": "https://unsplash.com/photos/JxERHOxXTCw",
+      "description": "The Louvre Museum, located in the heart of Paris, is the world's largest art museum and historic monument. It is renowned for housing thousands of works of art, including the Mona Lisa and the Venus de Milo, in its impressive galleries."
+    },
+    {
+      "id": 13,
+      "countryId": 1,
+      "placeName": "Versailles Palace",
+      "placeImage": "https://unsplash.com/photos/AUDG_Ja0MOU",
+      "description": "The Palace of Versailles, located in the city of Versailles, is a magnificent royal château known for its opulent architecture and the Hall of Mirrors. It played a significant role in French history and is a UNESCO World Heritage site."
+    },
+    {
+      "id": 21,
+      "countryId": 2,
+      "placeName": "Colosseum",
+      "placeImage": "https://unsplash.com/photos/VFRTXGw1VjU",
+      "description": "The Colosseum, located in the heart of Rome, is an ancient amphitheater known for its grandeur and historical significance. It once hosted gladiatorial contests and other spectacles."
+    },
+    {
+      "id": 22,
+      "countryId": 2,
+      "placeName": "Venice Canals",
+      "placeImage": "https://unsplash.com/photos/bJtjyP_1hfg",
+      "description": "The Venice Canals, a network of scenic waterways, are famous for their romantic gondola rides and picturesque bridges. Venice is known for its unique and beautiful urban layout."
+    },
+    {
+      "id": 23,
+      "countryId": 2,
+      "placeName": "Leaning Tower of Pisa",
+      "placeImage": "https://unsplash.com/photos/X7siVBrDE8k",
+      "description": "The Leaning Tower of Pisa is an iconic tilted tower located in Pisa, Italy. Its unintentional tilt has made it a popular tourist attraction and a symbol of architectural uniqueness."
+    },
+    {
+      "id": 31,
+      "countryId": 3,
+      "placeName": "Sagrada Família",
+      "placeImage": "https://unsplash.com/photos/R0vAlyiNfXA",
+      "description": "The Sagrada Família, designed by architect Antoni Gaudí, is a famous basilica in Barcelona, Spain. Its unique and intricate architecture has made it an iconic symbol of the city."
+    },
+    {
+      "id": 32,
+      "countryId": 3,
+      "placeName": "Park Güell",
+      "placeImage": "https://unsplash.com/photos/FZIAGWwiQGk",
+      "description": "Park Güell is a public park with colorful mosaics, sculptures, and architectural elements designed by Antoni Gaudí. It is a UNESCO World Heritage site and offers stunning views of Barcelona."
+    },
+    {
+      "id": 33,
+      "countryId": 3,
+      "placeName": "Barcelona Beaches",
+      "placeImage": "https://unsplash.com/photos/xXKBLpDSfXk",
+      "description": "Barcelona's beaches, including Barceloneta Beach, are popular for their golden sands, clear waters, and vibrant atmosphere. They are ideal for relaxing and water sports."
+    },
+    {
+      "id": 41,
+      "countryId": 4,
+      "placeName": "Anne Frank House",
+      "placeImage": "https://unsplash.com/photos/Sv4btqhcYqw",
+      "description": "The Anne Frank House is a museum dedicated to the Jewish wartime diarist Anne Frank, who hid with her family during the Holocaust. Visitors can explore the hidden annex and learn about Anne Frank's life and the history of the Holocaust."
+    },
+    {
+      "id": 42,
+      "countryId": 4,
+      "placeName": "Rijksmuseum",
+      "placeImage": "https://unsplash.com/photos/ktIeizXobW8",
+      "description": "The Rijksmuseum is the national museum of the Netherlands, housing an extensive collection of Dutch Golden Age paintings, including works by Rembrandt and Vermeer, as well as historical artifacts."
+    },
+    {
+      "id": 43,
+      "countryId": 4,
+      "placeName": "Keukenhof Gardens",
+      "placeImage": "https://unsplash.com/photos/LJ__ZuLHWkM",
+      "description": "Keukenhof Gardens, also known as the 'Garden of Europe,' is famous for its stunning displays of tulips and other flowers. It's one of the world's largest flower gardens and attracts visitors with its vibrant colors."
+    },
+    {
+      "id": 51,
+      "countryId": 5,
+      "placeName": "Charles Bridge",
+      "placeImage": "https://unsplash.com/photos/OyoaCpMCR0U",
+      "description": "Charles Bridge is a historic stone bridge that crosses the Vltava River in Prague. It's adorned with statues of saints and provides beautiful views of the city's old town and Prague Castle."
+    },
+    {
+      "id": 52,
+      "countryId": 5,
+      "placeName": "Prague Castle",
+      "placeImage": "https://unsplash.com/photos/V-tCxUTy5sY",
+      "description": "Prague Castle is a massive complex that includes the Gothic-style St. Vitus Cathedral, the Old Royal Palace, and the colorful Golden Lane. It's a symbol of Czech history and architecture."
+    },
+    {
+      "id": 53,
+      "countryId": 5,
+      "placeName": "",
+      "placeImage": "https://unsplash.com/photos/4SxqIY_fJSk",
+      "description": "The Astronomical Clock in Prague's Old Town Square is a medieval timekeeping marvel. It features an astronomical dial, a calendar dial, and animated figurines that perform hourly."
+    },
+    {
+      "id": 61,
+      "countryId": 6,
+      "placeName": "Acropolis",
+      "placeImage": "https://unsplash.com/photos/L0l7gVS-TC0",
+      "description": "The Acropolis of Athens is a UNESCO World Heritage site and the ancient citadel overlooking Athens. It houses several historic buildings, including the Parthenon, and offers panoramic views of the city."
+    },
+    {
+      "id": 62,
+      "countryId": 6,
+      "placeName": "Plaka Neighborhood",
+      "placeImage": "https://unsplash.com/photos/sukW98lrXy4",
+      "description": "The Plaka neighborhood in Athens is a charming area known for its narrow streets, neoclassical architecture, and traditional Greek tavernas. It's a great place to explore and savor Greek cuisine."
+    },
+    {
+      "id": 63,
+      "countryId": 6,
+      "placeName": "Meteora Monasteries",
+      "placeImage": "https://unsplash.com/photos/872pxjcjjqg",
+      "description": "The Meteora Monasteries, perched atop towering rock pillars in central Greece, are a UNESCO World Heritage site. They are known for their stunning architecture and breathtaking natural surroundings."
+    },
+    {
+      "id": 71,
+      "countryId": 7,
+      "placeName": "St. Mark's Square",
+      "placeImage": "https://unsplash.com/photos/T8nEzuE7gxI",
+      "description": "St. Mark's Square in Venice, Italy, is the principal public square of Venice and known for its impressive architecture, including St. Mark's Basilica and the Campanile. It's a popular gathering spot for tourists and locals."
+    },
+    {
+      "id": 72,
+      "countryId": 7,
+      "placeName": "Grand Canal",
+      "placeImage": "https://unsplash.com/photos/iuMDWx7tWcs",
+      "description": "The Grand Canal in Venice is the city's main waterway, lined with beautiful palaces, churches, and historic buildings. Visitors can take a scenic gondola ride to admire the architectural beauty."
+    },
+    {
+      "id": 73,
+      "countryId": 7,
+      "placeName": "Rialto Bridge",
+      "placeImage": "https://unsplash.com/photos/hFXZ5cNfkOk",
+      "description": "The Rialto Bridge is one of Venice's most iconic bridges, spanning the Grand Canal. It's a popular spot for photos and offers stunning views of the city's waterways."
+    },
+    {
+      "id": 81,
+      "countryId": 8,
+      "placeName": "Guinness Storehouse",
+      "placeImage": "https://unsplash.com/photos/l4etuKwxWO8",
+      "description": "The Guinness Storehouse in Dublin, Ireland, is a popular tourist attraction. It offers a tour of the brewing process, a Gravity Bar with panoramic views of Dublin, and a chance to learn about the history of Guinness beer."
+    },
+    {
+      "id": 82,
+      "countryId": 8,
+      "placeName": "Trinity College Library",
+      "placeImage": "https://unsplash.com/photos/jbChkRaCXBg",
+      "description": "Trinity College Library in Dublin is famous for its Long Room, which houses thousands of old books and the Book of Kells, a beautifully illuminated manuscript. It's a must-visit for book and history enthusiasts."
+    },
+    {
+      "id": 83,
+      "countryId": 8,
+      "placeName": "Temple Bar District",
+      "placeImage": "https://unsplash.com/photos/5r0jfcr-Yrk",
+      "description": "The Temple Bar District in Dublin is a lively cultural hub known for its pubs, restaurants, and artsy atmosphere. It's a great place to experience Irish music and nightlife."
+    },
+    {
+      "id": 91,
+      "countryId": 9,
+      "placeName": "Schönbrunn Palace",
+      "placeImage": "https://unsplash.com/photos/rSywC03CGlI",
+      "description": "Schönbrunn Palace in Vienna, Austria, is a magnificent Baroque palace and former imperial residence. Visitors can explore the palace's opulent rooms, beautiful gardens, and the Gloriette structure."
+    },
+    {
+      "id": 92,
+      "countryId": 9,
+      "placeName": "Belvedere Palace",
+      "placeImage": "https://unsplash.com/photos/cVeFRSbfc_M",
+      "description": "The Belvedere Palace in Vienna is known for its stunning architecture and art collection. It houses works by Gustav Klimt, including 'The Kiss,' and offers a glimpse into Austria's cultural heritage."
+    },
+    {
+      "id": 93,
+      "countryId": 9,
+      "placeName": "Vienna State Opera",
+      "placeImage": "https://unsplash.com/photos/BqDcXg6ZyQE",
+      "description": "The Vienna State Opera is one of the world's most famous opera houses, known for its grand performances and stunning architecture. It's a cultural gem in Vienna."
+    },
+    {
+      "id": 101,
+      "countryId": 10,
+      "placeName": "Edinburgh Castle",
+      "placeImage": "https://unsplash.com/photos/S56zN8cV5fk",
+      "description": "Edinburgh Castle is a historic fortress that dominates the skyline of Edinburgh, Scotland's capital. It offers a rich history, including the Stone of Destiny and the Royal Palace."
+    },
+    {
+      "id": 102,
+      "countryId": 10,
+      "placeName": "Royal Mile",
+      "placeImage": "https://unsplash.com/photos/7LnIRdhOEtw",
+      "description": "The Royal Mile in Edinburgh is a historic street that stretches from the Edinburgh Castle to the Palace of Holyroodhouse. It's lined with shops, restaurants, and historic sites."
+    },
+    {
+      "id": 103,
+      "countryId": 10,
+      "placeName": "Arthur's Seat",
+      "placeImage": "https://unsplash.com/photos/MXvQvs5rtBY",
+      "description": "Arthur's Seat is an ancient volcano and hill in the center of Edinburgh. It offers panoramic views of the city and is a popular hiking destination."
     }
   ]
 }
