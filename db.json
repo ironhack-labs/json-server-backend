@@ -1,11 +1,11 @@
 {
-  "whiskys": [
+  "whiskeys": [
     {
       "id": 1,
       "name": "Ardbeg 10 years old",
       "origin": "Islay, Scotland",
       "age": "10 Year Old",
-      "price": 61.70,
+      "price": 61.7,
       "description": "Ardbeg Ten Years Old is revered around the world as the peatiest, smokiest, most complex single malt of them all. Yet it does not flaunt the peat; rather it gives way to the natural sweetness of the malt to produce a whisky of perfect balance. Non-chill filtered.",
       "image": "https://img.thewhiskyexchange.com/900/abgob.10yov1.jpg"
     },
@@ -32,7 +32,7 @@
       "name": "Jack Daniel's Old No.7",
       "origin": "Tennesse, USA",
       "age": "4 Year Old",
-      "price": 38.50,
+      "price": 38.5,
       "description": "Mellowed drop by drop through 10-feet of sugar maple charcoal, then matured in handcrafted barrels of our own making. And our Tennessee Whiskey does not follow a calendar. It is only ready when our tasters say it is. We judge it by the way it looks. By its aroma. And of course, by the way it tastes. It is how Jack Daniel himself did it over a century ago. And how we still do it today.",
       "image": "https://img.thewhiskyexchange.com/900/brbon_jac1.jpg"
     },
@@ -41,7 +41,7 @@
       "name": "Lagavulin 16 years old",
       "origin": "Islay, Scotland",
       "age": "16 Year Old",
-      "price": 105.00,
+      "price": 105,
       "description": "The Islay representative in the 'Classic Malts' series is a deep, dry and exceptionally peaty bruiser. Probably the most pungent of all Islay malts, Lagavulin is not for the faint-hearted but inspires fanatical devotion in its many followers.",
       "image": "https://img.thewhiskyexchange.com/900/lgvob.16yo.jpg"
     },
@@ -50,7 +50,7 @@
       "name": "Nikka Days",
       "origin": "Japan",
       "age": "No Age Statement",
-      "price": 41.50,
+      "price": 41.5,
       "description": "Nikka Days is a brilliantly bright blended Japanese whisky from the legendary producer, featuring spirits from the Miyagikyo and Yoichi distilleries. The slightly peated whisky delicately balances both fruity and malted flavours.",
       "image": "https://img.thewhiskyexchange.com/900/japan_nik47.jpg"
     },
@@ -68,7 +68,7 @@
       "name": "Dalmore 15 Year Old",
       "origin": "Highland, Scotland",
       "age": "15 Year Old",
-      "price": 108.00,
+      "price": 108,
       "description": "A favourite expression in the Dalmore stable, this 15-year-old is elegant and smooth, with lipsmacking texture and the flawless balance one would expect from blending maestro Richard Paterson.",
       "image": "https://img.thewhiskyexchange.com/900/dlmob.15yo.jpg"
     },
@@ -77,7 +77,7 @@
       "name": "Octomore Edition 14.1",
       "origin": "Islay, Scotland",
       "age": "5 Year Old",
-      "price": 146.00,
+      "price": 146,
       "description": "Edition 14.1 of Bruichladdich's Octomore series was made with barley grown on the Scottish mainland and malted to 128.ppm creating a heavily peated single malt. This whisky was matured for five years in first-fill ex-American whiskey casks, imparting aromas of smoked caramel, roasted almonds and barbecue pork on the nose, with bright citrus notes, smoked heather and ground coffee on the palate.",
       "image": "https://img.thewhiskyexchange.com/900/octob.05yov27.jpg"
     },
@@ -91,76 +91,223 @@
       "image": "https://img.thewhiskyexchange.com/900/macob.12yov26.jpg"
     }
   ],
-   "notes": [
+  "notes": [
     {
       "id": 1,
-      "whiskyId": 1,
-      "nose": ["Peaty", "Bonfires", "Iodine"],
-      "taste": ["Peaty", "Pepper", "Oak", "Caramel"],
-      "finish": ["Citric", "Salt", "New wood"]
+      "whiskeyId": 1,
+      "nose": [
+        "Peaty",
+        "Bonfires",
+        "Iodine"
+      ],
+      "taste": [
+        "Peaty",
+        "Pepper",
+        "Oak",
+        "Caramel"
+      ],
+      "finish": [
+        "Citric",
+        "Salt",
+        "New wood"
+      ]
     },
     {
       "id": 2,
-      "whiskyId": 2,
-      "nose": ["Honey", "Pear", "Vanilla", "Fresh fruit"],
-      "taste": ["Pear", "Sweet", "Honey", "Apple"],
-      "finish": ["Oak", "Spicy", "Sweet"]
+      "whiskeyId": 2,
+      "nose": [
+        "Honey",
+        "Pear",
+        "Vanilla",
+        "Fresh fruit"
+      ],
+      "taste": [
+        "Pear",
+        "Sweet",
+        "Honey",
+        "Apple"
+      ],
+      "finish": [
+        "Oak",
+        "Spicy",
+        "Sweet"
+      ]
     },
     {
       "id": 3,
-      "whiskyId": 3,
-      "nose": ["Spicy", "Sherried", "Caramel", "Vanilla"],
-      "taste": ["Vanilla", "Spicy", "Honey", "Oak"],
-      "finish": ["Oak", "Spicy", "Vanilla"]
+      "whiskeyId": 3,
+      "nose": [
+        "Spicy",
+        "Sherried",
+        "Caramel",
+        "Vanilla"
+      ],
+      "taste": [
+        "Vanilla",
+        "Spicy",
+        "Honey",
+        "Oak"
+      ],
+      "finish": [
+        "Oak",
+        "Spicy",
+        "Vanilla"
+      ]
     },
     {
       "id": 4,
-      "whiskyId": 4,
-      "nose": ["Vanilla", "Caramel", "Banana"],
-      "taste": ["Vanilla", "Sweet", "Caramel", "Oak", "Banana"],
-      "finish": ["Oak", "Caramel", "Vanilla", "Spicy"]
+      "whiskeyId": 4,
+      "nose": [
+        "Vanilla",
+        "Caramel",
+        "Banana"
+      ],
+      "taste": [
+        "Vanilla",
+        "Sweet",
+        "Caramel",
+        "Oak",
+        "Banana"
+      ],
+      "finish": [
+        "Oak",
+        "Caramel",
+        "Vanilla",
+        "Spicy"
+      ]
     },
     {
       "id": 5,
-      "whiskyId": 5,
-      "nose": ["Peaty", "Iodine", "Seaweed", "Sweet"],
-      "taste": ["Smoky", "Iodine", "Salt"],
-      "finish": ["Pepper", "Peaty", "Nutty", "Bitter"]
+      "whiskeyId": 5,
+      "nose": [
+        "Peaty",
+        "Iodine",
+        "Seaweed",
+        "Sweet"
+      ],
+      "taste": [
+        "Smoky",
+        "Iodine",
+        "Salt"
+      ],
+      "finish": [
+        "Pepper",
+        "Peaty",
+        "Nutty",
+        "Bitter"
+      ]
     },
     {
       "id": 6,
-      "whiskyId": 6,
-      "nose": ["Apple", "Honey", "Sulphuric"],
-      "taste": ["Toffee", "Smoky", "Honey"],
-      "finish": ["Honey", "Fresh Fruit", "Caramel", "Metallic"]
+      "whiskeyId": 6,
+      "nose": [
+        "Apple",
+        "Honey",
+        "Sulphuric"
+      ],
+      "taste": [
+        "Toffee",
+        "Smoky",
+        "Honey"
+      ],
+      "finish": [
+        "Honey",
+        "Fresh Fruit",
+        "Caramel",
+        "Metallic"
+      ]
     },
     {
       "id": 7,
-      "whiskyId": 7,
-      "nose": ["Apple", "Honey", "Vanilla", "Floral", "Pear"],
-      "taste": ["Vanilla", "Honey", "Pear", "Apple", "Oak"],
-      "finish": ["Oak", "Vanilla", "Honey", "Spicy"]
+      "whiskeyId": 7,
+      "nose": [
+        "Apple",
+        "Honey",
+        "Vanilla",
+        "Floral",
+        "Pear"
+      ],
+      "taste": [
+        "Vanilla",
+        "Honey",
+        "Pear",
+        "Apple",
+        "Oak"
+      ],
+      "finish": [
+        "Oak",
+        "Vanilla",
+        "Honey",
+        "Spicy"
+      ]
     },
     {
       "id": 8,
-      "whiskyId": 8,
-      "nose": ["Orange", "Sherried", "Vanilla"],
-      "taste": ["Vanilla", "Sherried", "Spicy", "Oak", "Orange"],
-      "finish": ["Oak", "Vanilla", "Sherried", "Spicy"]
+      "whiskeyId": 8,
+      "nose": [
+        "Orange",
+        "Sherried",
+        "Vanilla"
+      ],
+      "taste": [
+        "Vanilla",
+        "Sherried",
+        "Spicy",
+        "Oak",
+        "Orange"
+      ],
+      "finish": [
+        "Oak",
+        "Vanilla",
+        "Sherried",
+        "Spicy"
+      ]
     },
     {
       "id": 9,
-      "whiskyId": 9,
-      "nose": ["Iodine", "Toffee", "Oily", "Sea-encrusted rope", "Pine needle"],
-      "taste": ["Peaty", "Citrus", "Salt", "Almont"],
-      "finish": ["Butterscotch", "Vanilla", "Peaty", "Salt"]
+      "whiskeyId": 9,
+      "nose": [
+        "Iodine",
+        "Toffee",
+        "Oily",
+        "Sea-encrusted rope",
+        "Pine needle"
+      ],
+      "taste": [
+        "Peaty",
+        "Citrus",
+        "Salt",
+        "Almont"
+      ],
+      "finish": [
+        "Butterscotch",
+        "Vanilla",
+        "Peaty",
+        "Salt"
+      ]
     },
     {
       "id": 10,
-      "whiskyId": 10,
-      "nose": ["Oak", "Vanilla", "Butterscotch", "Orange"],
-      "taste": ["Vanilla", "Honey", "Sherried", "Oak"],
-      "finish": ["Sweet", "Oak", "Vanilla", "Sherried", "Spicy"]
+      "whiskeyId": 10,
+      "nose": [
+        "Oak",
+        "Vanilla",
+        "Butterscotch",
+        "Orange"
+      ],
+      "taste": [
+        "Vanilla",
+        "Honey",
+        "Sherried",
+        "Oak"
+      ],
+      "finish": [
+        "Sweet",
+        "Oak",
+        "Vanilla",
+        "Sherried",
+        "Spicy"
+      ]
     }
   ]
 }
