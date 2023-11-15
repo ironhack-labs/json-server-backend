@@ -1,2 +1,2 @@
 .env
-json-server-backend/node_modules
+/node_modules
