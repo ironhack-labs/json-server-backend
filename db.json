@@ -1,33 +1,313 @@
 {
-  "projects": [
+  "whiskeys": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "name": "Ardbeg 10 years old",
+      "origin": "Islay, Scotland",
+      "age": "10 Year Old",
+      "price": 61.7,
+      "description": "Ardbeg Ten Years Old is revered around the world as the peatiest, smokiest, most complex single malt of them all. Yet it does not flaunt the peat; rather it gives way to the natural sweetness of the malt to produce a whisky of perfect balance. Non-chill filtered.",
+      "image": "https://img.thewhiskyexchange.com/900/abgob.10yov1.jpg"
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "name": "Glenfiddich 12 years old",
+      "origin": "Speyside, Scotland",
+      "age": "12 Year Old",
+      "price": 36.95,
+      "description": "Carefully matured in the finest American bourbon and Spanish sherry oak casks for at least 12 years. Married and mellowed in oak marrying tuns for complete harmony of aroma and flavour. A single malt Scotch whisky with distinctive fresh pear, creamy with subtle oak flavours and a long smooth and mellow finish",
+      "image": "https://img.thewhiskyexchange.com/900/gfdob.12yo.jpg"
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "name": "Jameson",
+      "origin": "Cork, Ireland",
+      "age": "4 Year Old",
+      "price": 23.89,
+      "description": "Jameson Irish Whiskey is a blended Irish Whiskey. First we take the best of pot still and fine grain whiskeys. Then we triple distill them- not because we have to because we want to as it gives it its signature smoothness. Finally we age them in oak casks for a minimum of 4 years.",
+      "image": "https://img.thewhiskyexchange.com/900/irish_jam1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Jack Daniel's Old No.7",
+      "origin": "Tennesse, USA",
+      "age": "4 Year Old",
+      "price": 38.5,
+      "description": "Mellowed drop by drop through 10-feet of sugar maple charcoal, then matured in handcrafted barrels of our own making. And our Tennessee Whiskey does not follow a calendar. It is only ready when our tasters say it is. We judge it by the way it looks. By its aroma. And of course, by the way it tastes. It is how Jack Daniel himself did it over a century ago. And how we still do it today.",
+      "image": "https://img.thewhiskyexchange.com/900/brbon_jac1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Lagavulin 16 years old",
+      "origin": "Islay, Scotland",
+      "age": "16 Year Old",
+      "price": 105,
+      "description": "The Islay representative in the 'Classic Malts' series is a deep, dry and exceptionally peaty bruiser. Probably the most pungent of all Islay malts, Lagavulin is not for the faint-hearted but inspires fanatical devotion in its many followers.",
+      "image": "https://img.thewhiskyexchange.com/900/lgvob.16yo.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Nikka Days",
+      "origin": "Japan",
+      "age": "No Age Statement",
+      "price": 41.5,
+      "description": "Nikka Days is a brilliantly bright blended Japanese whisky from the legendary producer, featuring spirits from the Miyagikyo and Yoichi distilleries. The slightly peated whisky delicately balances both fruity and malted flavours.",
+      "image": "https://img.thewhiskyexchange.com/900/japan_nik47.jpg"
+    },
+    {
+      "id": 7,
+      "name": "The Glenlivet Double Oak 12 Year Old",
+      "origin": "Speyside, Scotland",
+      "age": "12 Year Old",
+      "price": 41.25,
+      "description": "One of the most famous malts in the world. Glenlivet 12yo has a soft smooth balance of sweet summer fruits and the floral notes of spring flowers.",
+      "image": "https://img.thewhiskyexchange.com/900/glvob.12yov1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Dalmore 15 Year Old",
+      "origin": "Highland, Scotland",
+      "age": "15 Year Old",
+      "price": 108,
+      "description": "A favourite expression in the Dalmore stable, this 15-year-old is elegant and smooth, with lipsmacking texture and the flawless balance one would expect from blending maestro Richard Paterson.",
+      "image": "https://img.thewhiskyexchange.com/900/dlmob.15yo.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Octomore Edition 14.1",
+      "origin": "Islay, Scotland",
+      "age": "5 Year Old",
+      "price": 146,
+      "description": "Edition 14.1 of Bruichladdich's Octomore series was made with barley grown on the Scottish mainland and malted to 128.ppm creating a heavily peated single malt. This whisky was matured for five years in first-fill ex-American whiskey casks, imparting aromas of smoked caramel, roasted almonds and barbecue pork on the nose, with bright citrus notes, smoked heather and ground coffee on the palate.",
+      "image": "https://img.thewhiskyexchange.com/900/octob.05yov27.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Macallan 12 Year Old Double Cask",
+      "origin": "Speyside, Scotland",
+      "age": "12 Year Old",
+      "price": 74.95,
+      "description": "Macallan 12 Year Old Double Cask has been aged in a combination of American oak and ex-sherry casks. This is a rich whisky which combines fruity citrus and caramel with spicy ginger and nutmeg.",
+      "image": "https://img.thewhiskyexchange.com/900/macob.12yov26.jpg"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "whiskeyId": 1,
+      "nose": [
+        "Peaty",
+        "Bonfires",
+        "Iodine"
+      ],
+      "taste": [
+        "Peaty",
+        "Pepper",
+        "Oak",
+        "Caramel"
+      ],
+      "finish": [
+        "Citric",
+        "Salt",
+        "New wood"
+      ]
+    },
+    {
+      "id": 2,
+      "whiskeyId": 2,
+      "nose": [
+        "Honey",
+        "Pear",
+        "Vanilla",
+        "Fresh fruit"
+      ],
+      "taste": [
+        "Pear",
+        "Sweet",
+        "Honey",
+        "Apple"
+      ],
+      "finish": [
+        "Oak",
+        "Spicy",
+        "Sweet"
+      ]
+    },
+    {
+      "id": 3,
+      "whiskeyId": 3,
+      "nose": [
+        "Spicy",
+        "Sherried",
+        "Caramel",
+        "Vanilla"
+      ],
+      "taste": [
+        "Vanilla",
+        "Spicy",
+        "Honey",
+        "Oak"
+      ],
+      "finish": [
+        "Oak",
+        "Spicy",
+        "Vanilla"
+      ]
+    },
+    {
+      "id": 4,
+      "whiskeyId": 4,
+      "nose": [
+        "Vanilla",
+        "Caramel",
+        "Banana"
+      ],
+      "taste": [
+        "Vanilla",
+        "Sweet",
+        "Caramel",
+        "Oak",
+        "Banana"
+      ],
+      "finish": [
+        "Oak",
+        "Caramel",
+        "Vanilla",
+        "Spicy"
+      ]
+    },
+    {
+      "id": 5,
+      "whiskeyId": 5,
+      "nose": [
+        "Peaty",
+        "Iodine",
+        "Seaweed",
+        "Sweet"
+      ],
+      "taste": [
+        "Smoky",
+        "Iodine",
+        "Salt"
+      ],
+      "finish": [
+        "Pepper",
+        "Peaty",
+        "Nutty",
+        "Bitter"
+      ]
+    },
+    {
+      "id": 6,
+      "whiskeyId": 6,
+      "nose": [
+        "Apple",
+        "Honey",
+        "Sulphuric"
+      ],
+      "taste": [
+        "Toffee",
+        "Smoky",
+        "Honey"
+      ],
+      "finish": [
+        "Honey",
+        "Fresh Fruit",
+        "Caramel",
+        "Metallic"
+      ]
+    },
+    {
+      "id": 7,
+      "whiskeyId": 7,
+      "nose": [
+        "Apple",
+        "Honey",
+        "Vanilla",
+        "Floral",
+        "Pear"
+      ],
+      "taste": [
+        "Vanilla",
+        "Honey",
+        "Pear",
+        "Apple",
+        "Oak"
+      ],
+      "finish": [
+        "Oak",
+        "Vanilla",
+        "Honey",
+        "Spicy"
+      ]
+    },
+    {
+      "id": 8,
+      "whiskeyId": 8,
+      "nose": [
+        "Orange",
+        "Sherried",
+        "Vanilla"
+      ],
+      "taste": [
+        "Vanilla",
+        "Sherried",
+        "Spicy",
+        "Oak",
+        "Orange"
+      ],
+      "finish": [
+        "Oak",
+        "Vanilla",
+        "Sherried",
+        "Spicy"
+      ]
+    },
+    {
+      "id": 9,
+      "whiskeyId": 9,
+      "nose": [
+        "Iodine",
+        "Toffee",
+        "Oily",
+        "Sea-encrusted rope",
+        "Pine needle"
+      ],
+      "taste": [
+        "Peaty",
+        "Citrus",
+        "Salt",
+        "Almont"
+      ],
+      "finish": [
+        "Butterscotch",
+        "Vanilla",
+        "Peaty",
+        "Salt"
+      ]
+    },
+    {
+      "id": 10,
+      "whiskeyId": 10,
+      "nose": [
+        "Oak",
+        "Vanilla",
+        "Butterscotch",
+        "Orange"
+      ],
+      "taste": [
+        "Vanilla",
+        "Honey",
+        "Sherried",
+        "Oak"
+      ],
+      "finish": [
+        "Sweet",
+        "Oak",
+        "Vanilla",
+        "Sherried",
+        "Spicy"
+      ]
     }
   ]
 }
