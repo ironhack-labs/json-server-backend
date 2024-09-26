@@ -10,12 +10,12 @@ const PORT = process.env.PORT || 5005;
 server.use(middlewares);
 server.use(morgan("dev"));
 server.use((req, res, next) => {
-  // Middleware to disable CORS
-  res.header("Access-Control-Allow-Origin", "*");
-  next();
+	// Middleware to disable CORS
+	res.header("Access-Control-Allow-Origin", "*");
+	next();
 });
 server.use(router);
 
 server.listen(PORT, () => {
-  console.log(`JSON Server is running at port ${PORT}`);
+	console.log(`JSON Server is running at port ${PORT}`);
 });
